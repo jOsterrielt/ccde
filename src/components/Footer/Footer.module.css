@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    width: 100vw;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+
+.container span{
+    color: #6153ff;
+    transition: color 0.2s ease-in, text-shadow 0.2s ease, scale 0.2s ease;
+}
+.container span:hover{
+    scale: 1.1;
+    color: #ada5ff;
+    text-shadow: 0 0 15px #ffffff9c;
+}
+.container a{
+    text-decoration: none;
+}

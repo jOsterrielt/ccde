@@ -1,0 +1,87 @@
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0 15px 0;
+    align-items: flex-start;
+}
+
+.container h3 {
+    font-size:18px;
+    font-weight: 600;
+    margin: 0;
+    color: #ada5ff;
+    text-shadow: 0 0 15px #ffffff9c;
+    text-align: center;
+}
+
+.container span {
+    font-weight: 600;
+    color: #ada5ff;
+}
+
+.container p {
+    margin: 0;
+}
+
+
+.item {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid azure;
+}
+
+.itemResult {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid azure;
+}
+
+
+.totalContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.totalContainer h3 {
+    margin-bottom: 15px;
+}
+
+.totalContainer p {
+    text-align: center;
+}
+
+.total {
+    display: flex;
+    gap: 25px   
+}
+
+.chartContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    
+}
+
+.chartButton {
+    display: flex;
+    align-self: flex-start;
+    width: fit-content;
+    background-color: #aca5ff1a;
+}
+
+.pieContainer {
+    height: 250px;
+    width: 250px;
+}

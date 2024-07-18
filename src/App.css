@@ -1,0 +1,78 @@
+.App {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.App h1 {
+  text-align: center;
+  margin: 10px auto;
+  font-size: 22px;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 830px;
+}
+.calculatorContainer {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.formContainer {
+  min-width: 400px;
+}
+
+.resultsContainer {
+  width: 400px;
+  height: 100%; 
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.resultsContainer img {
+  width: 400px; 
+  height: 535px; 
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.faqContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.linkContainer {
+  margin-bottom: 30px;
+}
+
+
+@media(max-width: 944px) {
+  .calculatorContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+  .headerContainer {
+    width: 400px;
+  }
+}
+@media(max-width: 944px) {
+  .faqContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+}
