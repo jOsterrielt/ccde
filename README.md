@@ -3,7 +3,7 @@
 Esta aplicación te permite calcular de manera sencilla y precisa el costo de electricidad de tu cultivo de interior. Solo necesitas ingresar la información de los aparatos que utilizas, como su potencia, horas de uso diario, días de uso y la tarifa de electricidad. La calculadora procesará estos datos para ofrecerte un desglose detallado del costo y consumo total, ayudándote a planificar y optimizar el uso de energía en tu indoor.
 
 ![777shots_so](https://github.com/user-attachments/assets/32eb010a-4abb-4ca1-ac60-36c347a144bb)
-
+<img src="https://skillicons.dev/icons?i=html,css,js,react&theme=dark" />
 
 ## Características
 
